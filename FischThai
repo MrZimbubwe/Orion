@@ -316,16 +316,16 @@ end
     local espEnabled = false
 -- // // // Tabs // // // --
     local Tabs = {
-        เมนู = Window:AddTab({ Title = "เมนู", Icon = "house" }),
-        วาป = Window:AddTab({ Title = "วาป", Icon = "backpack" }),
-        ไอเทม = Window:AddTab({ Title = "ไอเทม", Icon = "backpack" }),
-        ผู้เล่น = Window:AddTab({ Title = "ผู้เล่น", Icon = "person-standing" }),
-        อื่นๆ = Window:AddTab({ Title = "ออโต้ต่างๆ", Icon = "computer" }),
-        อื่นๆ = Window:AddTab({ Title = "อื่นๆ", Icon = "circle-ellipsis" }),
-        ไม่มีไร = Window:AddTab({ Title = "ไม่มีไร", Icon = "database" }),
-        สคริปอื่นๆ = Window:AddTab({ Title = "สคริปอื่นๆ", Icon = "scroll-text" }),
+        Main = Window:AddTab({ Title = "เมนู", Icon = "house" }),
+        Teleport = Window:AddTab({ Title = "วาป", Icon = "backpack" }),
+        Item = Window:AddTab({ Title = "ไอเทม", Icon = "backpack" }),
+        Player = Window:AddTab({ Title = "ผู้เล่น", Icon = "person-standing" }),
+        Auto = Window:AddTab({ Title = "ออโต้ต่างๆ", Icon = "computer" }),
+        Misc = Window:AddTab({ Title = "อื่นๆ", Icon = "circle-ellipsis" }),
+        Kuyrai = Window:AddTab({ Title = "ไม่มีไร", Icon = "database" }),
+        Script = Window:AddTab({ Title = "สคริปอื่นๆ", Icon = "scroll-text" }),
         ตั้งค่า = Window:AddTab({ Title = "ตั้งค่า", Icon = "settings" }),
-        Info = Window:AddTab({ Title = "Credit โฟกัสสุดหล่อ", Icon = "info" }),
+        CD = Window:AddTab({ Title = "Credit โฟกัสสุดหล่อ", Icon = "info" }),
         }
 
     local Options = Fluent.Options
