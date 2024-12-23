@@ -324,7 +324,7 @@ end
         Misc = Window:AddTab({ Title = "อื่นๆ", Icon = "circle-ellipsis" }),
         Kuyrai = Window:AddTab({ Title = "ไม่มีไร", Icon = "database" }),
         Script = Window:AddTab({ Title = "สคริปอื่นๆ", Icon = "scroll-text" }),
-        ตั้งค่า = Window:AddTab({ Title = "ตั้งค่า", Icon = "settings" }),
+        Settings = Window:AddTab({ Title = "ตั้งค่า", Icon = "settings" }),
         CD = Window:AddTab({ Title = "Credit โฟกัสสุดหล่อ", Icon = "info" }),
         }
 
