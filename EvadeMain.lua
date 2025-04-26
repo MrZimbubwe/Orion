@@ -16,7 +16,7 @@ Esp.Settings.TracerColor = Color3.fromRGB(255, 0, 0)
 Esp.Settings.PlayerTextColor = Color3.fromRGB(255, 255, 0)
 Esp.Settings.DistanceTextColor = Color3.fromRGB(255, 255, 255)
 
-local Window = Library:CreateWindow("🧟🎃 Tenacity | tenacity.glitch.me", Vector2.new(500, 300), Enum.KeyCode.RightShift)
+local Window = Library:CreateWindow("Evade Xero Hub👾", Vector2.new(500, 300), Enum.KeyCode.RightShift)
 local Evade = Window:CreateTab("General")
 local AutoFarms = Window:CreateTab("Farms")
 local Gamee = Window:CreateTab("Game")
@@ -169,9 +169,9 @@ Visuals:AddColorpicker("Downed Player Color", Color3.fromRGB(255,255,255), funct
     Settings.DownedColor = Color
 end)
 
-Credits:AddLabel("Developed By Woldan")
-Credits:AddLabel("https://tenacity.glitch.me")
-Credits:AddLabel("discord.gg/baristv44")
+Credits:AddLabel("Developed By โฟกัส")
+Credits:AddLabel("https://github.com/MrZimbubwe")
+Credits:AddLabel("Xero Hub")
 Configs:CreateConfigSystem()
 
 local TypeLabelC5 = FarmStats:AddLabel('Auto Farm Stats')
