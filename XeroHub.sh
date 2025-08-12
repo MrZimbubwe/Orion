@@ -1,7 +1,7 @@
 #!/bin/bash
 
-##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
+##   XeroHub 	: 	Automated Phishing Tool
+##   Author 	: 	YedHed 
 ##   Version 	: 	2.3.5
 ##   Github 	: 	https://github.com/htr-tech/zphisher
 
@@ -204,14 +204,11 @@ check_status() {
 banner() {
 	cat <<- EOF
 		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : ${__version__}
+		${ORANGE}   \  /                    |   |        |     
+		${ORANGE}    /   _ \   __|   _ \   |   | |   |  __ \  
+		${ORANGE}    \   __/  |     (   |  ___ | |   |  |   | 
+		${ORANGE} _/\_\\___| _|    \___/  _|  _|\__._| _.__/  
+                                                             ${RED}Version : ${__version__}
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by MrSimbubwe (XeroHub)${WHITE}
 	EOF
@@ -221,9 +218,8 @@ banner() {
 banner_small() {
 	cat <<- EOF
 		${BLUE}
-		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
-		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} ${__version__}
+		${BLUE}  ░▀▄▀▒██▀▒█▀▄░▄▀▄░█▄█░█▒█░██▄
+		${BLUE}  ░█▒█░█▄▄░█▀▄░▀▄▀▒█▒█░▀▄█▒█▄█${WHITE} ${__version__}
 	EOF
 }
 
